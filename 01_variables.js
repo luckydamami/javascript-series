@@ -1,5 +1,11 @@
 let accountId = 12746;
 const accountEmail = "user123@gmail.com";
-var accountCity = "Ajmer";
+var accountName = "Nikhil"; // var keyword not using because of functional and block scope problem
 
-console.log(accountCity);
+accountCity = "Ajmer";
+
+accountId = 65348;
+//accountEmail = "name@gmail.com";
+accountCity = "jodhpur";
+
+console.table([accountId, accountEmail, accountName, accountCity]);
